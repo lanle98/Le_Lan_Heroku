@@ -1,6 +1,6 @@
 # Critter Spraygun
 
-This Unique Spray System Is An Economical Way To Spray:
+This Unique Spray System Is An Economical Way To Spray
 
 ## Build with
 * **HTML5**
