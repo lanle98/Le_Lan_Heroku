@@ -1,83 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,600,700,900&display=swap"
-        rel="stylesheet" />
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,600,700,900&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="css/main.css" />
 
-    <title>Sneaker Head</title>
-</head>
-
-<body>
-    
+    <title>Critter Spraygun</title>
+  </head>
+  <body>
     <header>
-        <h1 class="hidden">Header</h1>
-        <div class="logo">
-            <h2 class="hidden">Logo</h2>
-           
-            <!-- {{!-- <img src="images/critter_logo.png" alt="Logo" /> --}} -->
-
+      <h1 class="hidden">Header</h1>
+      <div class="logo">
+        <h2 class="hidden">Logo</h2>
+        <div class="hamburger-menu">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
         </div>
+        <img src="images/critter_logo.png" alt="Logo" />
+      </div>
+
+      <div class="navBar-desktop">
+        <h2 class="hidden">Navigation Bar</h2>
+        <ul>
+          <li class="scrollTo">Feature</li>
+          <li class="scrollTo">Projects</li>
+          <li class="scrollTo">Videos</li>
+        </ul>
+      </div>
+
+      <div class="navBar-mobile mobile">
+        <h2 class="hidden">Navigation Bar</h2>
+        <ul>
+          <li class="scrollTo">Feature</li>
+          <li class="scrollTo">Projects</li>
+          <li class="scrollTo">Videos</li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <h1 class="hidden">Container</h1>
+
+      <section class="easy-to-use">
+        <h2 class="title">Easy To Use</h2>
+        <div class="steps">
+          <div class="step ">
+            <img src="images/easy-to-use/step-1.jpg" alt="step 1" />
+            <div class="p-wrapper"><p>Set Air Pressure on Compressor</p></div>
+          </div>
+          <div class="step boxShadow">
+            <img src="images/easy-to-use/step-2.png" alt="step 2" />
+            <div class="p-wrapper">
+              <p>Adjust Liquid Nozzle to middle of airstream</p>
+            </div>
+          </div>
+          <div class="step boxShadow">
+            <img src="images/easy-to-use/step-3.png" alt="step 3" />
+            <div class="p-wrapper">
+              <p>Add paint ( thin as recommended )</p>
+            </div>
+          </div>
+          <div class="step boxShadow">
+            <img src="images/easy-to-use/step-4.png" alt="step 4" />
+            <div class="p-wrapper">
+              <p>
+                Practice ( constant travel speed, overlap each pass for even
+                coverage )
+              </p>
+            </div>
+          </div>
         </div>
-        <ul class="nav row justify-content-center my-4">
-                <li class="nav-item col-md text-center">
-                  <a class="nav-link active" href="running">Running</a>
-                </li>
-                <li class="nav-item col-md text-center">
-                  <a class="nav-link" href="boots">Boots</a>
-                </li>
-                <li class="nav-item col-md text-center">
-                  <a class="nav-link" href="basketball">basketball</a>
-                </li>
-                
-              </ul>
-        <div class="container">
-               
-               <div class="row justify-content-center">
-                   <div class="col-md-6">
-                       <div class="imgAbt">
-                           <img class="img-fluid" src="images/running.png" />
-                       </div>
-                   </div>
-                   <div class="col-md-4">
-                       <h1>Adidas Ultraboost</h1>
-                       <p>Rock a fresh but classic look with the all-white Ultraboost Shoes from adidas. Ultraboost technology provides the ultimate in cushioning while the Torison System provides a stable ride for runners of all abilities.</p>
-                   </div>
-               </div>
+      </section>
 
-               <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <div class="imgAbt">
-                        <img class="img-fluid" src="images/boots.png" />
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <h1>Timberland Boots</h1>
-                    <p>When you think of Timberland® boots, you're thinking of these. Our original waterproof boot was designed more than 40 years ago and remains a best-seller today, with tireless waterproof performance and instantly recognizable work-boot styling.</p>
-                </div>
-            </div>
+      <section class="features Feature">
+        <h2 class="title">Features</h2>
+        <div class="feature-wrapper">
+          <div class="feature boxShadow">
+            <img src="images/feature_images/1.png" alt="feature" />
+            <h3>Light weight - comfortable design</h3>
+          </div>
 
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <div class="imgAbt">
-                        <img class="img-fluid" src="images/basketball.png" />
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <h1>Jordan Retro 12</h1>
-                    <p>If you’re looking for a top-quality kick for your kid, look no further than the Jordan Retro 12. This sneaker is comfortable, cool, and inspired by the shoe Michael Jordan wore when he won his fifth league title. Your kiddo will start their day on the right foot with the Jordan Retro 12, knowing that they walk in a shoe similar to the one Michael Jordan rocked to the top. Kids will step ahead in the classroom and on the court with the Jordan Retro 12.</p>
-                </div>
-            </div>
-           </div>
-    
-       
-        <script src="js/main.js"></script>
-</body>
+          <div class="feature boxShadow">
+            <img src="images/feature_images/2.png" alt="feature" />
+            <h3>Standard 16oz mason jar</h3>
+          </div>
 
+          <div class="feature boxShadow">
+            <img src="images/feature_images/3.png" alt="feature" />
+            <h3>
+              Requires a 3/4 hp or larger compressor that produces 2 -3 Cubic
+              Feet/Minute (CFM )
+            </h3>
+          </div>
+
+          <div class="feature boxShadow">
+            <img src="images/feature_images/4.png" alt="feature" />
+            <h3>Fast colour change when utilizing mason jars</h3>
+          </div>
+
+          <div class="feature boxShadow">
+            <img src="images/feature_images/5.png" alt="feature" />
+            <h3>Adaptable to other containers</h3>
+          </div>
+
+          <div class="feature boxShadow">
+            <img src="images/feature_images/6.png" alt="feature" />
+            <h3>
+              Sprays: Paints, Stains, Polyurethanes, Foam & Fabric Adhesives and
+              Ceramic Glazes
+            </h3>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <h1 class="hidden">Footer</h1>
+      <div class="wrapper-left">
+        <img src="images/critter_logo_2.svg" alt="Logo" />
+        <a href="https://www.youtube.com/user/crittersprayproducts"
+          ><img src="images/youtube.svg" alt="youtube"
+        /></a>
+      </div>
+
+      <div class="wrapper-right">
+        <div class="navBar">
+          <h2 class="hidden">Navigation Bar</h2>
+          <ul>
+            <li class="scrollTo">Feature</li>
+            <li class="scrollTo">Projects</li>
+            <li class="scrollTo">Videos</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
 </html>
