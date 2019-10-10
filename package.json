@@ -1,0 +1,22 @@
+{
+  "name": "le_lan_heroku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanle98/Le_Lan_Heroku.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lanle98/Le_Lan_Heroku/issues"
+  },
+  "homepage": "https://github.com/lanle98/Le_Lan_Heroku#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
