@@ -1,6 +1,6 @@
 (() => {
   console.log("hamburger");
-
+  //make variables
   let hamburgerMenu = document.querySelector(".hamburger-menu");
   let mobileNav = document.querySelector(".mobile");
   let body = document.querySelector("body");
